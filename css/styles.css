@@ -365,17 +365,27 @@ body {
     }
 
     .hero {
-        padding: 4rem 1.5rem;
-        min-height: 400px;
+        padding: 3rem 1rem;
+        min-height: auto;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .hero-content h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        line-height: 1.2;
     }
 
     .hero-content .subtitle,
     .hero-content .tagline {
         font-size: 1rem;
+        word-wrap: break-word;
     }
 
     .section-header h2 {
@@ -393,8 +403,28 @@ body {
     }
 
     .footer-content {
-        gap: 2rem;
+        g {
+        padding: 2.5rem 0.75rem;
+        min-height: auto;
     }
+
+    .hero-content {
+        width: 100%;
+        max-width: calc(100vw - 1.5rem);
+        overflow-x: hidden;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+        word-wrap: break-word;
+        line-height: 1.2;
+    }
+
+    .hero-content .subtitle,
+    .hero-content .tagline {
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word
 }
 
 @media (max-width: 480px) {
